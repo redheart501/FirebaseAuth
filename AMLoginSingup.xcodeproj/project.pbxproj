@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5340D4128D662DE78ACEC637 /* Pods_AMLoginSingup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D868E2728D9D2BC0273B3777 /* Pods_AMLoginSingup.framework */; };
+		67D9AB2020733C7700D0C617 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67D9AB1F20733C7700D0C617 /* GoogleService-Info.plist */; };
+		67D9AB2220733F2100D0C617 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D9AB2120733F2100D0C617 /* MainViewController.swift */; };
+		ABA51C7F1DAC9B0C009F209C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA51C7E1DAC9B0C009F209C /* AppDelegate.swift */; };
+		ABA51C811DAC9B0C009F209C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA51C801DAC9B0C009F209C /* ViewController.swift */; };
+		ABA51C841DAC9B0C009F209C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA51C821DAC9B0C009F209C /* Main.storyboard */; };
+		ABA51C861DAC9B0C009F209C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA51C851DAC9B0C009F209C /* Assets.xcassets */; };
+		ABA51C891DAC9B0C009F209C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA51C871DAC9B0C009F209C /* LaunchScreen.storyboard */; };
+		ABA51C921DAC9BD3009F209C /* AMInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA51C911DAC9BD3009F209C /* AMInputView.swift */; };
+		ABA51C941DAC9BE1009F209C /* AMInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA51C931DAC9BE1009F209C /* AMInputView.xib */; };
+		ABC09D621DACE05500021BB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC09D611DACE05500021BB8 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67D9AB1F20733C7700D0C617 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		67D9AB2120733F2100D0C617 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9EA117E806BCD40B40D3D931 /* Pods-AMLoginSingup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMLoginSingup.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMLoginSingup/Pods-AMLoginSingup.release.xcconfig"; sourceTree = "<group>"; };
+		ABA51C7B1DAC9B0C009F209C /* AMLS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMLS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA51C7E1DAC9B0C009F209C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABA51C801DAC9B0C009F209C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABA51C831DAC9B0C009F209C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABA51C851DAC9B0C009F209C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABA51C881DAC9B0C009F209C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABA51C8A1DAC9B0C009F209C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA51C911DAC9BD3009F209C /* AMInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AMInputView.swift; path = AMInputView/AMInputView.swift; sourceTree = "<group>"; };
+		ABA51C931DAC9BE1009F209C /* AMInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AMInputView.xib; path = AMInputView/AMInputView.xib; sourceTree = "<group>"; };
+		ABC09D611DACE05500021BB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE42BB0358A7C854DD47DDFE /* Pods-AMLoginSingup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMLoginSingup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMLoginSingup/Pods-AMLoginSingup.debug.xcconfig"; sourceTree = "<group>"; };
+		D868E2728D9D2BC0273B3777 /* Pods_AMLoginSingup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMLoginSingup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA51C781DAC9B0C009F209C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5340D4128D662DE78ACEC637 /* Pods_AMLoginSingup.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43AFC19182D30B6ED98F9E1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D868E2728D9D2BC0273B3777 /* Pods_AMLoginSingup.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABA51C721DAC9B0C009F209C = {
+			isa = PBXGroup;
+			children = (
+				ABA51C7D1DAC9B0C009F209C /* AMLoginSingup */,
+				ABA51C7C1DAC9B0C009F209C /* Products */,
+				EADAFBB7830BE2ED5AA2AE4B /* Pods */,
+				43AFC19182D30B6ED98F9E1D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA51C7C1DAC9B0C009F209C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA51C7B1DAC9B0C009F209C /* AMLS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA51C7D1DAC9B0C009F209C /* AMLoginSingup */ = {
+			isa = PBXGroup;
+			children = (
+				67D9AB1F20733C7700D0C617 /* GoogleService-Info.plist */,
+				ABA51C901DAC9BA2009F209C /* AMInputView */,
+				ABA51C7E1DAC9B0C009F209C /* AppDelegate.swift */,
+				ABA51C801DAC9B0C009F209C /* ViewController.swift */,
+				ABA51C821DAC9B0C009F209C /* Main.storyboard */,
+				67D9AB2120733F2100D0C617 /* MainViewController.swift */,
+				ABA51C871DAC9B0C009F209C /* LaunchScreen.storyboard */,
+				ABA51C8A1DAC9B0C009F209C /* Info.plist */,
+				ABA51C851DAC9B0C009F209C /* Assets.xcassets */,
+				ABC09D611DACE05500021BB8 /* Images.xcassets */,
+			);
+			path = AMLoginSingup;
+			sourceTree = "<group>";
+		};
+		ABA51C901DAC9BA2009F209C /* AMInputView */ = {
+			isa = PBXGroup;
+			children = (
+				ABA51C911DAC9BD3009F209C /* AMInputView.swift */,
+				ABA51C931DAC9BE1009F209C /* AMInputView.xib */,
+			);
+			name = AMInputView;
+			sourceTree = "<group>";
+		};
+		EADAFBB7830BE2ED5AA2AE4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE42BB0358A7C854DD47DDFE /* Pods-AMLoginSingup.debug.xcconfig */,
+				9EA117E806BCD40B40D3D931 /* Pods-AMLoginSingup.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA51C7A1DAC9B0C009F209C /* AMLoginSingup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA51C8D1DAC9B0C009F209C /* Build configuration list for PBXNativeTarget "AMLoginSingup" */;
+			buildPhases = (
+				3446187F6C6AC7A530AD434C /* [CP] Check Pods Manifest.lock */,
+				ABA51C771DAC9B0C009F209C /* Sources */,
+				ABA51C781DAC9B0C009F209C /* Frameworks */,
+				ABA51C791DAC9B0C009F209C /* Resources */,
+				5431BFA6207018E095B5570F /* [CP] Embed Pods Frameworks */,
+				9EB14F7918C78458BE8D643D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMLoginSingup;
+			productName = AMLoginSingup;
+			productReference = ABA51C7B1DAC9B0C009F209C /* AMLS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA51C731DAC9B0C009F209C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = amirs.eu;
+				TargetAttributes = {
+					ABA51C7A1DAC9B0C009F209C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YZTQH368Z8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ABA51C761DAC9B0C009F209C /* Build configuration list for PBXProject "AMLoginSingup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABA51C721DAC9B0C009F209C;
+			productRefGroup = ABA51C7C1DAC9B0C009F209C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA51C7A1DAC9B0C009F209C /* AMLoginSingup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA51C791DAC9B0C009F209C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA51C891DAC9B0C009F209C /* LaunchScreen.storyboard in Resources */,
+				ABC09D621DACE05500021BB8 /* Images.xcassets in Resources */,
+				ABA51C941DAC9BE1009F209C /* AMInputView.xib in Resources */,
+				ABA51C861DAC9B0C009F209C /* Assets.xcassets in Resources */,
+				ABA51C841DAC9B0C009F209C /* Main.storyboard in Resources */,
+				67D9AB2020733C7700D0C617 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3446187F6C6AC7A530AD434C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AMLoginSingup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5431BFA6207018E095B5570F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AMLoginSingup/Pods-AMLoginSingup-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/PaymentKit/PaymentKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PaymentKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMLoginSingup/Pods-AMLoginSingup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EB14F7918C78458BE8D643D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMLoginSingup/Pods-AMLoginSingup-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA51C771DAC9B0C009F209C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA51C921DAC9BD3009F209C /* AMInputView.swift in Sources */,
+				ABA51C811DAC9B0C009F209C /* ViewController.swift in Sources */,
+				ABA51C7F1DAC9B0C009F209C /* AppDelegate.swift in Sources */,
+				67D9AB2220733F2100D0C617 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABA51C821DAC9B0C009F209C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA51C831DAC9B0C009F209C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABA51C871DAC9B0C009F209C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA51C881DAC9B0C009F209C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABA51C8B1DAC9B0C009F209C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABA51C8C1DAC9B0C009F209C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA51C8E1DAC9B0C009F209C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE42BB0358A7C854DD47DDFE /* Pods-AMLoginSingup.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YZTQH368Z8;
+				INFOPLIST_FILE = AMLoginSingup/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.amirs.AMLoginSingup;
+				PRODUCT_NAME = AMLS;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ABA51C8F1DAC9B0C009F209C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EA117E806BCD40B40D3D931 /* Pods-AMLoginSingup.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YZTQH368Z8;
+				INFOPLIST_FILE = AMLoginSingup/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.amirs.AMLoginSingup;
+				PRODUCT_NAME = AMLS;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA51C761DAC9B0C009F209C /* Build configuration list for PBXProject "AMLoginSingup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA51C8B1DAC9B0C009F209C /* Debug */,
+				ABA51C8C1DAC9B0C009F209C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA51C8D1DAC9B0C009F209C /* Build configuration list for PBXNativeTarget "AMLoginSingup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA51C8E1DAC9B0C009F209C /* Debug */,
+				ABA51C8F1DAC9B0C009F209C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABA51C731DAC9B0C009F209C /* Project object */;
+}
